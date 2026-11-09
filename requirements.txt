@@ -1,0 +1,12 @@
+# SynapseCash - Python dependencies
+
+# Security
+argon2-cffi
+cryptography
+
+# Testing
+pytest
+pytest-cov
+
+# Code quality
+ruff
