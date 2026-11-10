@@ -60,6 +60,7 @@ class SynapseCashApp(Gtk.Application):
 
     def do_activate(self):
         """Initialize and display the application."""
+        print("SynapseCash: GTK application activated")
 
         if self.window is not None:
             self.window.present()
