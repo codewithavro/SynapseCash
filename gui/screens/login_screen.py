@@ -6,7 +6,7 @@ from gi.repository import Gtk
 
 from gui.components.custom_button import CustomButton
 
-class LoginScreen():
+class LoginScreen(Gtk.Box):
     """Login screen for SynapseCash"""
 
     def __init__(self, on_login=None, on_back=None):
